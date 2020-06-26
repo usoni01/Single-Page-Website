@@ -1,14 +1,4 @@
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-ul,
-ol,
-li,
-p,
-a {
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   padding: 0;
   border: 0;
   margin: 0;
@@ -20,7 +10,7 @@ h1 {
 }
 h2 {
   color: #000000;
-  margin: 15px 0 15px 0;
+  margin: 15px 0 15px;
   text-align: center;
 }
 h3 {
@@ -73,7 +63,6 @@ ol {
 }
 .header {
   padding: 15px;
-  text-align: center;
 }
 .content-section {
   padding: 15px;
@@ -84,4 +73,19 @@ ol {
   border: 2px dashed #bbbbbb;
   padding: 5px 10px 5px 10px;
   margin-bottom: 5px;
+}
+.bands-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.bands-list h3 {
+  border-bottom: 0;
+  margin: 0;
+}
+.bands-list a {
+  text-decoration: none;
+  color: #ff2244;
+}
+.bands-list li {
+  border: 1px solid #555555;
 }
