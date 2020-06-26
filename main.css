@@ -109,3 +109,15 @@ ol {
 .nav a {
    color: #ee932a;
  }
+ .recording-now{
+  width: 450px;
+  height: 200px;
+  padding: 15px;
+  margin: 0 auto;
+  background: #dddddd url(prependers-recording.jpg) top left no-repeat;
+}
+
+.recording-now p {
+  color: #dddddd;
+  font-size: 28px;
+}
