@@ -35,9 +35,10 @@ ul {
 }
 li {
   margin-bottom: 5px;
+   background: #555555 url(images/bg-tile.png);
 }
 body {
-  padding: 0;
+background: #555555 url(bg-tile.png);
 }
 ol {
   padding: 0 0 0 20px;
@@ -63,11 +64,13 @@ ol {
 }
 .header {
   padding: 15px;
+  background: #242424 url(bg-header.png) top center no-repeat;
 }
 .content-section {
   padding: 15px;
   width: 450px;
   margin: 0 auto;
+  background: #dddddd url(bg-content.png) top left repeat;
 }
 .album {
   border: 2px dashed #bbbbbb;
@@ -92,8 +95,17 @@ ol {
 .cover{
   margin: center;
 }
-
+.p{
+  color: #000000;
+  padding: 15px;
+  width: 450px;
+  margin: 0 auto;
+  background: #dddddd top left repeat;
+}
 .header img {
   display: block;
   margin: 0 auto 15px auto;
 }
+.nav a {
+   color: #ee932a;
+ }
