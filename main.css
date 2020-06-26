@@ -76,3 +76,8 @@ ol {
   padding: 15px;
   width: 450px;
 }
+.album{
+  border: 2px dashed black;
+  padding: 10px 5px 10px 5px;
+  margin: 5px;
+}
