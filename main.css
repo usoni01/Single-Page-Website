@@ -13,16 +13,15 @@ a {
   border: 0;
   margin: 0;
 }
-body {
-  padding: 0;
-}
 h1 {
   color: #000000;
   margin: 0 0 15px 0;
+  text-align: center;
 }
 h2 {
   color: #000000;
-  margin: 15px 0 15px;
+  margin: 15px 0 15px 0;
+  text-align: center;
 }
 h3 {
   color: #333333;
@@ -40,7 +39,6 @@ p {
 }
 a {
   color: #440000;
-  text-decoration: none;
 }
 ul {
   padding: 0 0 0 30px;
@@ -48,11 +46,15 @@ ul {
 li {
   margin-bottom: 5px;
 }
+body {
+  padding: 0;
+}
 ol {
   padding: 0 0 0 20px;
 }
 .nav {
   padding: 0;
+  text-align: center;
 }
 .nav li {
   display: inline;
@@ -71,13 +73,15 @@ ol {
 }
 .header {
   padding: 15px;
+  text-align: center;
 }
 .content-section {
   padding: 15px;
   width: 450px;
+  margin: 0 auto;
 }
-.album{
-  border: 2px dashed black;
-  padding: 10px 5px 10px 5px;
-  margin: 5px;
+.album {
+  border: 2px dashed #bbbbbb;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 5px;
 }
